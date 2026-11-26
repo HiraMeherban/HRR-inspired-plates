@@ -1,0 +1,634 @@
+{
+  "title": "VisionMate AI HRR-style plate set (original, not the real HRR plates)",
+  "disclaimer": "Indicative screening only - not a medical diagnosis.",
+  "answer_options": [
+    "circle",
+    "cross",
+    "triangle",
+    "none"
+  ],
+  "scoring_hint": {
+    "normal": "all plates answered correctly",
+    "red_green": "errors on red_green_screening plates -> red-green deficiency suspected",
+    "protan_vs_deutan": "more errors on protan_type plates -> protan; more on deutan_type -> deutan",
+    "tritan": "errors on tritan_screening plates -> tritan suspected",
+    "severity": "severity_ladder plates get harder; count how many are answered correctly (4 = mild/none ... 0 = strong)"
+  },
+  "plates": [
+    {
+      "plate": 1,
+      "file": "plate_01.png",
+      "group": "demonstration",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 698,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [],
+      "visible_for": [
+        "all"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 70.3,
+        "protan_sim_ab_diff": 68.5,
+        "deutan_sim_ab_diff": 72.5,
+        "tritan_sim_ab_diff": 51.3,
+        "protan_sim_severity50_ab_diff": 69.1,
+        "deutan_sim_severity50_ab_diff": 71.0
+      }
+    },
+    {
+      "plate": 2,
+      "file": "plate_02.png",
+      "group": "demonstration",
+      "answer": [
+        "cross"
+      ],
+      "n_dots": 698,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [],
+      "visible_for": [
+        "all"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 61.6,
+        "protan_sim_ab_diff": 56.7,
+        "deutan_sim_ab_diff": 63.0,
+        "tritan_sim_ab_diff": 54.5,
+        "protan_sim_severity50_ab_diff": 58.3,
+        "deutan_sim_severity50_ab_diff": 61.3
+      }
+    },
+    {
+      "plate": 3,
+      "file": "plate_03.png",
+      "group": "red_green_screening",
+      "answer": [
+        "triangle"
+      ],
+      "n_dots": 687,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 32.5,
+        "protan_sim_ab_diff": 4.6,
+        "deutan_sim_ab_diff": 2.3,
+        "tritan_sim_ab_diff": 36.4,
+        "protan_sim_severity50_ab_diff": 14.7,
+        "deutan_sim_severity50_ab_diff": 15.2
+      }
+    },
+    {
+      "plate": 4,
+      "file": "plate_04.png",
+      "group": "red_green_screening",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 697,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 32.8,
+        "protan_sim_ab_diff": 3.0,
+        "deutan_sim_ab_diff": 3.8,
+        "tritan_sim_ab_diff": 36.9,
+        "protan_sim_severity50_ab_diff": 14.7,
+        "deutan_sim_severity50_ab_diff": 15.5
+      }
+    },
+    {
+      "plate": 5,
+      "file": "plate_05.png",
+      "group": "red_green_screening",
+      "answer": [
+        "triangle",
+        "cross"
+      ],
+      "n_dots": 709,
+      "n_symbols": 2,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 30.9,
+        "protan_sim_ab_diff": 4.8,
+        "deutan_sim_ab_diff": 1.9,
+        "tritan_sim_ab_diff": 33.6,
+        "protan_sim_severity50_ab_diff": 14.1,
+        "deutan_sim_severity50_ab_diff": 14.4
+      }
+    },
+    {
+      "plate": 6,
+      "file": "plate_06.png",
+      "group": "red_green_screening",
+      "answer": [
+        "circle",
+        "triangle"
+      ],
+      "n_dots": 708,
+      "n_symbols": 2,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 31.8,
+        "protan_sim_ab_diff": 3.7,
+        "deutan_sim_ab_diff": 2.8,
+        "tritan_sim_ab_diff": 33.3,
+        "protan_sim_severity50_ab_diff": 14.0,
+        "deutan_sim_severity50_ab_diff": 14.8
+      }
+    },
+    {
+      "plate": 7,
+      "file": "plate_07.png",
+      "group": "red_green_screening",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 694,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 32.3,
+        "protan_sim_ab_diff": 4.1,
+        "deutan_sim_ab_diff": 2.7,
+        "tritan_sim_ab_diff": 33.8,
+        "protan_sim_severity50_ab_diff": 14.5,
+        "deutan_sim_severity50_ab_diff": 15.2
+      }
+    },
+    {
+      "plate": 8,
+      "file": "plate_08.png",
+      "group": "red_green_screening",
+      "answer": [
+        "cross"
+      ],
+      "n_dots": 693,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 29.3,
+        "protan_sim_ab_diff": 2.6,
+        "deutan_sim_ab_diff": 3.5,
+        "tritan_sim_ab_diff": 32.3,
+        "protan_sim_severity50_ab_diff": 13.2,
+        "deutan_sim_severity50_ab_diff": 13.8
+      }
+    },
+    {
+      "plate": 9,
+      "file": "plate_09.png",
+      "group": "tritan_screening",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 682,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "tritan"
+      ],
+      "visible_for": [
+        "protan",
+        "deutan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 27.9,
+        "protan_sim_ab_diff": 29.8,
+        "deutan_sim_ab_diff": 24.4,
+        "tritan_sim_ab_diff": 3.3,
+        "protan_sim_severity50_ab_diff": 28.3,
+        "deutan_sim_severity50_ab_diff": 25.8
+      }
+    },
+    {
+      "plate": 10,
+      "file": "plate_10.png",
+      "group": "tritan_screening",
+      "answer": [
+        "triangle",
+        "cross"
+      ],
+      "n_dots": 690,
+      "n_symbols": 2,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "tritan"
+      ],
+      "visible_for": [
+        "protan",
+        "deutan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 32.0,
+        "protan_sim_ab_diff": 34.5,
+        "deutan_sim_ab_diff": 28.7,
+        "tritan_sim_ab_diff": 3.6,
+        "protan_sim_severity50_ab_diff": 32.7,
+        "deutan_sim_severity50_ab_diff": 30.0
+      }
+    },
+    {
+      "plate": 11,
+      "file": "plate_11.png",
+      "group": "tritan_screening",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 677,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "tritan"
+      ],
+      "visible_for": [
+        "protan",
+        "deutan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 27.9,
+        "protan_sim_ab_diff": 30.1,
+        "deutan_sim_ab_diff": 24.9,
+        "tritan_sim_ab_diff": 3.0,
+        "protan_sim_severity50_ab_diff": 28.5,
+        "deutan_sim_severity50_ab_diff": 26.1
+      }
+    },
+    {
+      "plate": 12,
+      "file": "plate_12.png",
+      "group": "tritan_screening",
+      "answer": [
+        "triangle"
+      ],
+      "n_dots": 690,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "tritan"
+      ],
+      "visible_for": [
+        "protan",
+        "deutan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 29.4,
+        "protan_sim_ab_diff": 32.2,
+        "deutan_sim_ab_diff": 26.0,
+        "tritan_sim_ab_diff": 3.0,
+        "protan_sim_severity50_ab_diff": 30.2,
+        "deutan_sim_severity50_ab_diff": 27.3
+      }
+    },
+    {
+      "plate": 13,
+      "file": "plate_13.png",
+      "group": "protan_type",
+      "answer": [
+        "cross"
+      ],
+      "n_dots": 681,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan"
+      ],
+      "visible_for": [
+        "deutan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 47.0,
+        "protan_sim_ab_diff": 0.5,
+        "deutan_sim_ab_diff": 13.5,
+        "tritan_sim_ab_diff": 55.3,
+        "protan_sim_severity50_ab_diff": 26.8,
+        "deutan_sim_severity50_ab_diff": 25.7
+      }
+    },
+    {
+      "plate": 14,
+      "file": "plate_14.png",
+      "group": "protan_type",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 703,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan"
+      ],
+      "visible_for": [
+        "deutan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 50.6,
+        "protan_sim_ab_diff": 0.5,
+        "deutan_sim_ab_diff": 13.6,
+        "tritan_sim_ab_diff": 58.3,
+        "protan_sim_severity50_ab_diff": 28.2,
+        "deutan_sim_severity50_ab_diff": 27.3
+      }
+    },
+    {
+      "plate": 15,
+      "file": "plate_15.png",
+      "group": "protan_type",
+      "answer": [
+        "cross",
+        "triangle"
+      ],
+      "n_dots": 698,
+      "n_symbols": 2,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan"
+      ],
+      "visible_for": [
+        "deutan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 49.4,
+        "protan_sim_ab_diff": 3.2,
+        "deutan_sim_ab_diff": 15.8,
+        "tritan_sim_ab_diff": 58.0,
+        "protan_sim_severity50_ab_diff": 27.4,
+        "deutan_sim_severity50_ab_diff": 27.4
+      }
+    },
+    {
+      "plate": 16,
+      "file": "plate_16.png",
+      "group": "protan_type",
+      "answer": [
+        "cross"
+      ],
+      "n_dots": 711,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan"
+      ],
+      "visible_for": [
+        "deutan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 54.6,
+        "protan_sim_ab_diff": 0.7,
+        "deutan_sim_ab_diff": 16.1,
+        "tritan_sim_ab_diff": 73.0,
+        "protan_sim_severity50_ab_diff": 28.5,
+        "deutan_sim_severity50_ab_diff": 29.0
+      }
+    },
+    {
+      "plate": 17,
+      "file": "plate_17.png",
+      "group": "deutan_type",
+      "answer": [
+        "triangle"
+      ],
+      "n_dots": 682,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "deutan"
+      ],
+      "visible_for": [
+        "protan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 48.5,
+        "protan_sim_ab_diff": 15.3,
+        "deutan_sim_ab_diff": 1.2,
+        "tritan_sim_ab_diff": 52.5,
+        "protan_sim_severity50_ab_diff": 29.6,
+        "deutan_sim_severity50_ab_diff": 25.0
+      }
+    },
+    {
+      "plate": 18,
+      "file": "plate_18.png",
+      "group": "deutan_type",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 683,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "deutan"
+      ],
+      "visible_for": [
+        "protan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 52.6,
+        "protan_sim_ab_diff": 17.2,
+        "deutan_sim_ab_diff": 1.9,
+        "tritan_sim_ab_diff": 56.3,
+        "protan_sim_severity50_ab_diff": 32.1,
+        "deutan_sim_severity50_ab_diff": 27.1
+      }
+    },
+    {
+      "plate": 19,
+      "file": "plate_19.png",
+      "group": "deutan_type",
+      "answer": [
+        "triangle",
+        "cross"
+      ],
+      "n_dots": 678,
+      "n_symbols": 2,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "deutan"
+      ],
+      "visible_for": [
+        "protan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 47.9,
+        "protan_sim_ab_diff": 14.2,
+        "deutan_sim_ab_diff": 3.2,
+        "tritan_sim_ab_diff": 51.8,
+        "protan_sim_severity50_ab_diff": 26.0,
+        "deutan_sim_severity50_ab_diff": 24.1
+      }
+    },
+    {
+      "plate": 20,
+      "file": "plate_20.png",
+      "group": "deutan_type",
+      "answer": [
+        "triangle"
+      ],
+      "n_dots": 693,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "deutan"
+      ],
+      "visible_for": [
+        "protan",
+        "tritan"
+      ],
+      "verification": {
+        "normal_vision_ab_diff": 55.3,
+        "protan_sim_ab_diff": 16.1,
+        "deutan_sim_ab_diff": 1.1,
+        "tritan_sim_ab_diff": 59.6,
+        "protan_sim_severity50_ab_diff": 31.7,
+        "deutan_sim_severity50_ab_diff": 27.9
+      }
+    },
+    {
+      "plate": 21,
+      "file": "plate_21.png",
+      "group": "severity_ladder",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 695,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [],
+      "verification": {
+        "normal_vision_ab_diff": 29.4,
+        "protan_sim_ab_diff": 3.6,
+        "deutan_sim_ab_diff": 2.5,
+        "tritan_sim_ab_diff": 30.5,
+        "protan_sim_severity50_ab_diff": 13.1,
+        "deutan_sim_severity50_ab_diff": 13.8
+      }
+    },
+    {
+      "plate": 22,
+      "file": "plate_22.png",
+      "group": "severity_ladder",
+      "answer": [
+        "triangle"
+      ],
+      "n_dots": 692,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [],
+      "verification": {
+        "normal_vision_ab_diff": 26.0,
+        "protan_sim_ab_diff": 0.2,
+        "deutan_sim_ab_diff": 4.6,
+        "tritan_sim_ab_diff": 29.0,
+        "protan_sim_severity50_ab_diff": 11.3,
+        "deutan_sim_severity50_ab_diff": 12.4
+      }
+    },
+    {
+      "plate": 23,
+      "file": "plate_23.png",
+      "group": "severity_ladder",
+      "answer": [
+        "cross"
+      ],
+      "n_dots": 678,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [],
+      "verification": {
+        "normal_vision_ab_diff": 17.7,
+        "protan_sim_ab_diff": 3.3,
+        "deutan_sim_ab_diff": 1.6,
+        "tritan_sim_ab_diff": 20.9,
+        "protan_sim_severity50_ab_diff": 9.8,
+        "deutan_sim_severity50_ab_diff": 8.9
+      }
+    },
+    {
+      "plate": 24,
+      "file": "plate_24.png",
+      "group": "severity_ladder",
+      "answer": [
+        "circle"
+      ],
+      "n_dots": 690,
+      "n_symbols": 1,
+      "seen_by_normal": true,
+      "hidden_for": [
+        "protan",
+        "deutan"
+      ],
+      "visible_for": [],
+      "verification": {
+        "normal_vision_ab_diff": 13.2,
+        "protan_sim_ab_diff": 1.2,
+        "deutan_sim_ab_diff": 4.4,
+        "tritan_sim_ab_diff": 15.3,
+        "protan_sim_severity50_ab_diff": 7.5,
+        "deutan_sim_severity50_ab_diff": 7.5
+      }
+    }
+  ]
+}
