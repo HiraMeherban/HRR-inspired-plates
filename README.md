@@ -28,7 +28,7 @@ Not clinically validated.
 | 17-20 | deutan_type (4) | hidden for deutan, still visible to protan (type separation) |
 | 21-24 | severity_ladder (4) | red-green, normal-vision contrast falls 29 -> 26 -> 18 -> 13 (harder each plate) |
 
-## How it was made (method)
+## How it was made 
 1. **Colour space:** colours are chosen in CIELAB (D65), converted to linear sRGB.
 2. **Colour-vision simulation:** Machado, Oliveira and Fernandes (2009) matrices for protan, deutan and tritan
    (severity 1.0; intermediate severities by linear interpolation with the identity matrix).
@@ -45,7 +45,7 @@ Not clinically validated.
    protan/deutan is stored in `plates.json` for every plate.
 7. **Symbols:** circle (ring), cross (plus) and triangle (outline), drawn as masks; 1 large or 2 small per plate.
 
-## Limitations (state them honestly)
+## Limitations
 * Not the real HRR plates, not clinically validated, indicative screening only.
 * Simulation models are approximations; real eyes, screens and room lighting differ (screen brightness/colour
   calibration is not controlled).
